@@ -1,16 +1,14 @@
 # 🏠 House Price Prediction
-This project focuses on predicting house prices using various tree-based machine learning algorithms. After experimenting with multiple models such as Random Forest, Gradient Boosting, and XGBoost, the best-performing model was selected and fine-tuned using hyperparameter optimization techniques.
+This project focuses on predicting house prices using various tree-based machine learning algorithms. After experimenting with multiple models such as Random Forest,Ada Boost, Gradient Boosting, and XGBoost, the best-performing model was selected and fine-tuned using hyperparameter optimization techniques using GridSearchCV.
 
 The final model is deployed as an interactive web application using Streamlit, allowing users to input house features (e.g., size, number of bedrooms) and receive a predicted price in real-time.
 
 ## 🔍 Key Features:
-Tree-based regression models for accurate predictions
-
-Model comparison and selection through performance evaluation
-
-Hyperparameter tuning for improved accuracy
-
-Streamlit app for easy and interactive user experience
++ EDA(Univariate Analysis,Multivariate Analysis), Preprocessing data(missing data, categorical columns)
++ Tree-based regression models for accurate predictions
++ Model comparison and selection through performance evaluation
++ Hyperparameter tuning for improved accuracy(Using GridSearchCV)
++ Streamlit app for easy and interactive user experience
 
 ## Requirements
 
@@ -50,6 +48,6 @@ First you need copy the model file (checkpoint) in notebook folder to this direc
 To start the streamlit application, run the following command in the terminal:
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
